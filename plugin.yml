@@ -1,0 +1,14 @@
+name: TEST
+version: 1.0.0
+main: BOMJ_VALERA666.admintest.AdminTestPlugin
+api-version: '1.21'
+authors: [BOMJ_VALERA666]
+commands:
+  admintest:
+    description: TEST
+    usage: /admintest enderman
+    permission: admintest.use
+permissions:
+  admintest.use:
+    description: TEST
+    default: op
